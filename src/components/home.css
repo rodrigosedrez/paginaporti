@@ -1,0 +1,41 @@
+#titulo{
+    font-size: 18px;
+    color: rgb(65, 204, 46);
+}
+#tabeTx{
+    color: black;
+    width:50%;
+    font-size: calc(2px + 3vmin);
+    animation:0.7s ease-out 0s 1 slideInFromLeft;
+    
+    
+
+    
+}
+#foto{
+    width: 90%;
+    animation: 1s ease-out 0s 1 slideInFromRight;
+    margin-top: -100px;
+    
+}
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+#tabela{
+    padding: 40px;
+    align-items: flex-start;
+    
+}
